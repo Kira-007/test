@@ -1,4 +1,4 @@
 from main import fact 
-
-def fact_test():
+import pytest
+def test_fact():
     assert fact(3) ==6 
